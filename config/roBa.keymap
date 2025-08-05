@@ -73,6 +73,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        new_msc: new_msc {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "NEW_MSC";
+            #sensor-binding-cells = <0>;
+            bindings = <&new_msc SCRL_UP>, <&new_msc SCRL_DOWN>;
+        };
     };
 
     keymap {
@@ -86,7 +93,7 @@
 &kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 2  &mo 1          &kp LEFT_SHIFT  &kp BACKSPACE                                   &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&new_msc>;
         };
 
         FUNCandNUM {
