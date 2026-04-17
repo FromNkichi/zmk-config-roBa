@@ -71,10 +71,10 @@
 
         FUNCandNUM {
             bindings = <
-&kp ESC       &kp PAGE_UP    &kp HOME   &kp UP            &kp END                                          &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS
-&trans        &kp PAGE_DOWN  &kp LEFT   &kp DOWN          &kp RIGHT          &trans       &kp PRINTSCREEN  &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-&trans        &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT      &kp SEMICOLON    &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK
-&kp LEFT_WIN  &kp LCTRL      &trans     &trans            &trans             &trans       &trans           &trans                                                              &kp SLASH
+&kp ESC  &kp PAGE_UP    &kp HOME   &kp UP            &kp END                                          &kp EQUAL        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&trans   &kp PAGE_DOWN  &kp LEFT   &kp DOWN          &kp RIGHT          &trans       &kp PRINTSCREEN  &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&trans   &kp BACKSLASH  &kp SLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT      &kp SEMICOLON    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK
+&trans   &trans         &trans     &trans            &trans             &trans       &trans           &trans                                                              &kp SLASH
             >;
 
             sensor-bindings = <&new_msc>;
